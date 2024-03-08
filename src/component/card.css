@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.movie-card{
+    border-radius: 15px;
+    height: 14rem;
+    width: auto;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 23, 23)), url('https://cdn.discordapp.com/attachments/703917299123617792/1215615493860491304/4.jpg?ex=65fd6526&is=65eaf026&hm=817ba88285e8109c612e0b2c41d2e184d0663efe1cfc2ba659305db455318b5d&');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+    margin: 0 12rem;
+    margin-bottom: 12rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(92, 1, 1, 0.514) 0px 54px 55px, rgb(92, 1, 1, 0.514) 0px -12px 30px, rgb(92, 1, 1, 0.514) 0px 4px 6px, rgb(92, 1, 1, 0.514) 0px 12px 13px, rgb(92, 1, 1, 0.514) 0px -3px 5px;
+}
+
+.left{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
